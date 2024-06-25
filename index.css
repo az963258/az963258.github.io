@@ -21,12 +21,10 @@ body {
     color:white
   }
 
-  #glow_header {
-    color: #FFFFFF;
-    background: #333333;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #d14975 0px 0px 20px, #d14975 0px 0px 30px, #d14975 0px 0px 40px, #d14975 0px 0px 50px, #d14975 0px 0px 75px;
-    color: #FFFFFF;
-    background: #333333;
+  #header_effect {
+    color: rgba(255,255,255,.3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
     }
   
 p {
