@@ -1,0 +1,33 @@
+.comfortaa-font {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(65deg, #d14975, #701a35);
+  }
+  
+ h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white
+
+    
+  }
+  
+p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    color: white;
+  }
