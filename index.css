@@ -1,39 +1,59 @@
 .jost-font {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
+
+.glowing_text {
+  color: rgb(219, 219, 219);
+  background: #17161d;
+  text-shadow: 0 0 10px rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+  background: #17161d;
+  }
 
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #303030;
+    background-color: #17161d;
   }
  
   h1 {
     position: absolute;
-    top: 5%;
     left: 50%;
     transform: translate(-50%, -15%);
     text-align: center;
-    color:white;
-    text-shadow: 5px 5px 5px rgba(17, 17, 17, 0.7);
+    color:rgb(219, 219, 219);
     font-size: 50px;
-  }
-
-  .gradient_header {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(45deg, #d14975, #8f2b4a);
   }
   
 p {
     position: absolute;
-    left: 45%;
+    top: 10%;
+    left: 50%;
     transform: translateX(-50%);
+    text-align: center;
     width: 80%;
-    color: white;
+    color: rgb(219, 219, 219);
     font-size: 25px;
+  }
+
+  .links {
+    outline: none;
+    border-bottom: 2px;
+  }
+
+  .links:link {
+    color: #7a7a7a;
+  }
+
+  .links:visited {
+    color: #7a7a7a;
+  }
+  
+  #my_projects {
+    position: absolute;
+    top: 15%;
   }
