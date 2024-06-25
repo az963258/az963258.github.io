@@ -1,7 +1,7 @@
-.comfortaa-font {
-  font-family: "Comfortaa", sans-serif;
+.jost-font {
+  font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -20,6 +20,7 @@ body {
     text-align: center;
     color:white;
     text-shadow: 5px 5px 5px rgba(17, 17, 17, 0.7);
+    font-size: 50px;
   }
 
   .gradient_header {
@@ -30,9 +31,9 @@ body {
   
 p {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    left: 45%;
     transform: translateX(-50%);
     width: 80%;
     color: white;
+    font-size: 25px;
   }
