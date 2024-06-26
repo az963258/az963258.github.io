@@ -12,11 +12,13 @@ body {
     background-color: #17161d;
   }
  
-  #screenshot1 {
-    position: absolute;
-    top: 5%;
-    left: 45%;
-  }
+  .glowing_text {
+    color: rgb(219, 219, 219);
+    background: #17161d;
+    text-shadow: 0 0 10px rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+    background: #17161d;
+    }
   
   h1 {
     position: absolute;
@@ -35,6 +37,13 @@ p {
     font-size: 25px;
   }
 
+  #screenshot1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .links {
     outline: none;
     border-bottom: 2px;
@@ -51,4 +60,8 @@ p {
   #my_projects {
     position: absolute;
     top: 18%;
+  }
+
+  #back_button {
+    font-size: 25px;
   }
