@@ -1,0 +1,54 @@
+.jost-font {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #17161d;
+  }
+ 
+  #screenshot1 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 5%;
+    color:rgb(219, 219, 219);
+    font-size: 50px;
+  }
+  
+p {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 80%;
+    color: rgb(219, 219, 219);
+    font-size: 25px;
+  }
+
+  .links {
+    outline: none;
+    border-bottom: 2px;
+  }
+
+  .links:link {
+    color: #7a7a7a;
+  }
+
+  .links:visited {
+    color: #6b6b6b;
+  }
+  
+  #my_projects {
+    position: absolute;
+    top: 18%;
+  }
