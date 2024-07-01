@@ -57,3 +57,8 @@ p {
     position: absolute;
     top: 15%;
   }
+
+  #discord-widget {
+    position: absolute;
+    left: 80%;
+  }
