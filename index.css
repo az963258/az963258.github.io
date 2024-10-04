@@ -10,14 +10,16 @@
   background: #17161d;
   text-shadow: 0 0 10px rgb(219, 219, 219);
   color: rgb(219, 219, 219);
-  background: #17161d;
+  background: #ffffff00;
   }
 
 body {
+    background-image: url(img/red.png);
+    background-size: 100%;
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #17161d;
+    background-color: #000000;
   }
  
   h1 {
@@ -61,4 +63,19 @@ p {
   #discord-widget {
     position: absolute;
     left: 80%;
+  }
+
+  .glass {
+    backdrop-filter: blur(16px) saturate(100%);
+    -webkit-backdrop-filter: blur(16px) saturate(100%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+  #rec1 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 37.5%;
   }
