@@ -14,7 +14,7 @@
   }
 
 body {
-    background-image: url(img/red.png);
+    background-image: url(./img/red.png);
     background-size: 100%;
     margin: 0;
     padding: 0;
@@ -52,45 +52,8 @@ p {
 }
 
   #rec1 {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 1000px;
-    height: 400px;
-    margin: 0 auto;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 37.5%;
   }
-
-  #hi {
-    font-size: 500%;
-  }
-
-  .small{
-    font-size: xx-small;
-}
-
-.topnav {
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ff84a4;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #55092f;
-  color: white;
-}
