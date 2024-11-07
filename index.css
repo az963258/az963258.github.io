@@ -21,25 +21,13 @@ body {
     min-height: 100vh;
     background-color: #000000;
   }
- 
-  h1 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -15%);
-    text-align: center;
-    color:rgb(219, 219, 219);
-    font-size: 50px;
-  }
   
 p {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
     width: 80%;
     color: rgb(219, 219, 219);
     font-size: 25px;
+    white-space: pre-line;
   }
 
   .links {
@@ -54,28 +42,55 @@ p {
   .links:visited {
     color: #6b6b6b;
   }
-  
-  #my_projects {
-    position: absolute;
-    top: 15%;
-  }
-
-  #discord-widget {
-    position: absolute;
-    left: 80%;
-  }
 
   .glass {
-    backdrop-filter: blur(16px) saturate(100%);
+    backdrop-filter: blur(5px) saturate(100%);
     -webkit-backdrop-filter: blur(16px) saturate(100%);
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 2px solid rgba(94, 94, 94, 0.125);
 }
 
   #rec1 {
-    position: absolute;
-    width: 500px;
-    height: 300px;
-    left: 37.5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
   }
+
+  #hi {
+    font-size: 500%;
+  }
+
+  .small{
+    font-size: xx-small;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ff84a4;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #55092f;
+  color: white;
+}
