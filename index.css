@@ -1,6 +1,6 @@
 .jost-font {
   font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
+  font-optical-sizing: none;
   font-weight: 400;
   font-style: normal;
 }
@@ -18,7 +18,7 @@ body {
     background-size: 100%;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: #000000;
   }
   
@@ -44,7 +44,7 @@ p {
   }
 
   .glass {
-    backdrop-filter: blur(5px) saturate(100%);
+    backdrop-filter: blur(10px) saturate(115%);
     -webkit-backdrop-filter: blur(16px) saturate(100%);
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 12px;
@@ -63,6 +63,7 @@ p {
 
   #hi {
     font-size: 500%;
+    
   }
 
   .small{
@@ -95,4 +96,12 @@ p {
   background-color: #00000000;
   transform: scale(1);
   transition: all 0.3s ease;
+}
+.topnav img {
+  width: 50px;
+  height: 50px;
+}
+
+.niko_wave:before {
+  content: url(/img/niko/niko_wave.webp);
 }
