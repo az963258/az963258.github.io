@@ -71,23 +71,28 @@ p {
 
 .topnav {
   overflow: hidden;
+  margin: 5px 5px;
 }
 
 .topnav a {
   float: left;
   color: #f2f2f2;
+  background-color: #ffffff00;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 12px;
+  margin: 3px 3px;
 }
 
 .topnav a:hover {
-  background-color: #ff84a4;
-  color: black;
+  background-color: #ff5f8a;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
-
-.topnav a.active {
-  background-color: #55092f;
-  color: white;
+.topnav a:not(:hover) {
+  background-color: #00000000;
+  transform: scale(1);
+  transition: all 0.3s ease;
 }
